@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>un01s notes</title>
-    <link>https://un01s.github.io/</link>
-    <description>Recent content on un01s notes</description>
+    <title>reading on un01s notes</title>
+    <link>https://un01s.github.io/categories/reading/</link>
+    <description>Recent content in reading on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Dec 2021 14:43:23 -0700</lastBuildDate><atom:link href="https://un01s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 14:43:23 -0700</lastBuildDate><atom:link href="https://un01s.github.io/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joan Didion</title>
       <link>https://un01s.github.io/posts/20211223/</link>
