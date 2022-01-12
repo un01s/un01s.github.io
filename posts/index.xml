@@ -6,7 +6,19 @@
     <description>Recent content in Posts on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jan 2022 18:09:41 -0700</lastBuildDate><atom:link href="https://un01s.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 18:00:21 -0700</lastBuildDate><atom:link href="https://un01s.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust on ESP32</title>
+      <link>https://un01s.github.io/posts/20220111/</link>
+      <pubDate>Tue, 11 Jan 2022 18:00:21 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/posts/20220111/</guid>
+      <description>Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
+Clearly the toolchain is working in its early stage. $ cargo build is OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+References:
+ Rust on ESP32 rust esp32 std demo  </description>
+    </item>
+    
     <item>
       <title>SigmundFreud: mass delusion</title>
       <link>https://un01s.github.io/posts/20220108/</link>

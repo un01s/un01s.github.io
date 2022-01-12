@@ -6,7 +6,25 @@
     <description>Recent content in Tags on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Dec 2021 14:43:23 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 18:00:21 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>esp32</title>
+      <link>https://un01s.github.io/tags/esp32/</link>
+      <pubDate>Tue, 11 Jan 2022 18:00:21 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/tags/esp32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust-lang</title>
+      <link>https://un01s.github.io/tags/rust-lang/</link>
+      <pubDate>Tue, 11 Jan 2022 18:00:21 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/tags/rust-lang/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>essay</title>
       <link>https://un01s.github.io/tags/essay/</link>
