@@ -8,7 +8,8 @@
 <title>Rust on ESP32 | un01s notes</title>
 <meta name="keywords" content="rust-lang, esp32" />
 <meta name="description" content="Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
-Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Both espflash and espmonitor are working. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Update 2022.01.14: Both espflash and espmonitor are working.
 References:
  Rust on ESP32 rust esp32 std demo  ">
 <meta name="author" content="">
@@ -62,7 +63,8 @@ References:
     </style>
 </noscript><meta property="og:title" content="Rust on ESP32" />
 <meta property="og:description" content="Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
-Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Both espflash and espmonitor are working. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Update 2022.01.14: Both espflash and espmonitor are working.
 References:
  Rust on ESP32 rust esp32 std demo  " />
 <meta property="og:type" content="article" />
@@ -73,7 +75,8 @@ References:
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Rust on ESP32"/>
 <meta name="twitter:description" content="Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
-Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Both espflash and espmonitor are working. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
+Update 2022.01.14: Both espflash and espmonitor are working.
 References:
  Rust on ESP32 rust esp32 std demo  "/>
 
@@ -104,12 +107,12 @@ References:
   "@type": "BlogPosting",
   "headline": "Rust on ESP32",
   "name": "Rust on ESP32",
-  "description": "Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.\nClearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Both espflash and espmonitor are working. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.\nReferences:\n Rust on ESP32 rust esp32 std demo  ",
+  "description": "Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.\nClearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.\nUpdate 2022.01.14: Both espflash and espmonitor are working.\nReferences:\n Rust on ESP32 rust esp32 std demo  ",
   "keywords": [
     "rust-lang", "esp32"
   ],
-  "articleBody": "Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.\nClearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Both espflash and espmonitor are working. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.\nReferences:\n Rust on ESP32 rust esp32 std demo  ",
-  "wordCount" : "71",
+  "articleBody": "Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.\nClearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.\nUpdate 2022.01.14: Both espflash and espmonitor are working.\nReferences:\n Rust on ESP32 rust esp32 std demo  ",
+  "wordCount" : "73",
   "inLanguage": "en",
   "datePublished": "2022-01-11T18:00:21-07:00",
   "dateModified": "2022-01-11T18:00:21-07:00",
@@ -187,7 +190,10 @@ References:
   <div class="post-content"><p>Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.</p>
 <p><img loading="lazy" src="/rust-esp32.png" alt="Hello from Rust on ESP32"  />
 </p>
-<p>Clearly the toolchain is working in its early stage. <code>$ cargo build</code> OK. <del>But <code>esptool</code> does not work. This requires further investigation.</del> Both <code>espflash</code> and <code>espmonitor</code> are working. <del>Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.</del></p>
+<p>Clearly the toolchain is working in its early stage. <code>$ cargo build</code> OK. <del>But <code>esptool</code> does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.</del></p>
+<p>Update 2022.01.14: Both <code>espflash</code> and <code>espmonitor</code> are working.</p>
+<p><img loading="lazy" src="/rust-on-esp32.png" alt="Update Rust on ESP32"  />
+</p>
 <p>References:</p>
 <ul>
 <li><a href="https://kerkour.com/rust-on-esp32/">Rust on ESP32</a></li>
