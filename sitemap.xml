@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://un01s.github.io/posts/20220115/</loc>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
+  </url><url>
     <loc>https://un01s.github.io/categories/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/esp32/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/posts/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/categories/programming/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/</loc>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/toit-lang/</loc>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/</loc>
+    <lastmod>2022-01-15T21:02:50-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/posts/20220111/</loc>
     <lastmod>2022-01-11T18:00:21-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/rust-lang/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/tags/</loc>
-    <lastmod>2022-01-11T18:00:21-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/</loc>
     <lastmod>2022-01-11T18:00:21-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/essay/</loc>

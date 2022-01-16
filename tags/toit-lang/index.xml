@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>toit-lang on un01s notes</title>
+    <link>https://un01s.github.io/tags/toit-lang/</link>
+    <description>Recent content in toit-lang on un01s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jan 2022 21:02:50 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/toit-lang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20220115</title>
+      <link>https://un01s.github.io/posts/20220115/</link>
+      <pubDate>Sat, 15 Jan 2022 21:02:50 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/posts/20220115/</guid>
+      <description>Build some examples in toit and flash it to M5Core2.
+There is no problem to follow the steps in one toit discussion. While trying the step4 for ft63xx. Found a typo in package.yaml. mpu6886 should be ft63xx.
+Another issue is that the touch seems not working after unplugging the USB cable. Will investigate further. Will try jaguar tool later.</description>
+    </item>
+    
+  </channel>
+</rss>
