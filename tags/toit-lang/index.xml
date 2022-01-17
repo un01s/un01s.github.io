@@ -6,7 +6,18 @@
     <description>Recent content in toit-lang on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jan 2022 21:02:50 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/toit-lang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 12:12:11 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/toit-lang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Jaguar to update toit code over WiFi</title>
+      <link>https://un01s.github.io/posts/20220117/</link>
+      <pubDate>Mon, 17 Jan 2022 12:12:11 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/posts/20220117/</guid>
+      <description>The Jaguar tool is great.
+Use an Airport to setup a WiFi network. Then download the binary of Jaguar. Run the following commands one after another. The second command requires the WiFi credentials. Use CTRL+C to stop the third one. To run the forth and the fifth command, put your computer on the same WiFi network as the esp32 device.
+$./jag setup $./jag flash $./jag monitor $./jag scan $./jag run hello.</description>
+    </item>
+    
     <item>
       <title>Toit on M5stack Core2</title>
       <link>https://un01s.github.io/posts/20220115/</link>
