@@ -6,7 +6,17 @@
     <description>Recent content on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 20:53:56 -0700</lastBuildDate><atom:link href="https://un01s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 16:18:57 -0700</lastBuildDate><atom:link href="https://un01s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Code of Toit [FE25]</title>
+      <link>https://un01s.github.io/posts/20220225/</link>
+      <pubDate>Fri, 25 Feb 2022 16:18:57 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/posts/20220225/</guid>
+      <description>When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.
+where does the code get started on esp32? Based on esp-idf, Toit creates a new environment with a lot of free goodies such as over-the-air update through WiFi, easy tasks, and a high-level programming language with a built-in virtual machine for developers.</description>
+    </item>
+    
     <item>
       <title>Dr. Paul Farmer</title>
       <link>https://un01s.github.io/posts/20220221/</link>
