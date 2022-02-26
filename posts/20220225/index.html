@@ -105,8 +105,8 @@ For the code to start on the esp32 device, check all the files inside toolchains
   "keywords": [
     "toit", "code", "esp32", "esp32s3"
   ],
-  "articleBody": "When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.\nWhere does the code get started on esp32? Based on esp-idf, Toit (pronounced tight) creates a new platform with a new programming language for developers.\nFor the code to start on the esp32 device, check all the files inside toolchains/esp32/. They contains all the building details for esp32. Inside its subfolder main, there is a toit.c. This function toit_start() is the entry point.\n",
-  "wordCount" : "93",
+  "articleBody": "When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.\nWhere does the code get started on esp32? Based on esp-idf, Toit (pronounced tight) creates a new platform with a new programming language for developers.\nFor the code to start on the esp32 device, check all the files inside toolchains/esp32/. They contains all the building details for esp32. Inside its subfolder main, there is a toit.c. The function app_main() is the entry point. Inside toit_start() called.\n",
+  "wordCount" : "96",
   "inLanguage": "en",
   "datePublished": "2022-02-25T16:18:57-07:00",
   "dateModified": "2022-02-25T16:18:57-07:00",
@@ -184,7 +184,7 @@ For the code to start on the esp32 device, check all the files inside toolchains
   <div class="post-content"><p>When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.</p>
 <h3 id="where-does-the-code-get-started-on-esp32">Where does the code get started on esp32?<a hidden class="anchor" aria-hidden="true" href="#where-does-the-code-get-started-on-esp32">#</a></h3>
 <p>Based on esp-idf, Toit (pronounced tight) creates a new platform with a new programming language for developers.</p>
-<p>For the code to start on the esp32 device, check all the files inside <code>toolchains/esp32/</code>. They contains all the building details for esp32. Inside its subfolder <code>main</code>, there is a <code>toit.c</code>. This function <code>toit_start()</code> is the entry point.</p>
+<p>For the code to start on the esp32 device, check all the files inside <code>toolchains/esp32/</code>. They contains all the building details for esp32. Inside its subfolder <code>main</code>, there is a <code>toit.c</code>. The function <code>app_main()</code> is the entry point. Inside <code>toit_start()</code> called.</p>
 
 
   </div>
