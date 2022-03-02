@@ -117,6 +117,20 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Reading Code of Toit (002)
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  </p>
+  </section>
+  <footer class="entry-footer"><span title='2022-03-01 20:03:36 -0700 MST'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Code of Toit (002)" href="https://un01s.github.io/posts/20220301/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Reading Code of Toit (001)
     </h2>
   </header>
@@ -141,20 +155,6 @@ $./jag setup $./jag flash $./jag monitor $./jag scan $./jag run hello....</p>
   </section>
   <footer class="entry-footer"><span title='2022-01-17 12:12:11 -0700 MST'>January 17, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Use Jaguar to update toit code over WiFi" href="https://un01s.github.io/posts/20220117/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Wasm3 on ESP32
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Stumbled on this repo.
-Run the modified code on one snowflake with 25 RGB LEDs (ws2812b-2020).
-Check the video on my twitter.</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-01-16 15:40:28 -0700 MST'>January 16, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Wasm3 on ESP32" href="https://un01s.github.io/posts/20220116/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

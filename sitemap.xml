@@ -2,34 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://un01s.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
     <loc>https://un01s.github.io/categories/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/cmake/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/code/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/categories/diary/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/esp32/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/categories/post/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/posts/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/python/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/posts/20220301/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/tags/toit/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/</loc>
+    <lastmod>2022-03-01T20:03:36-07:00</lastmod>
+  </url><url>
+    <loc>https://un01s.github.io/categories/diary/</loc>
     <lastmod>2022-02-25T16:18:57-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/esp32s3/</loc>
     <lastmod>2022-02-25T16:18:57-07:00</lastmod>
   </url><url>
-    <loc>https://un01s.github.io/posts/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
-  </url><url>
     <loc>https://un01s.github.io/posts/20220225/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/tags/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/tags/toit/</loc>
-    <lastmod>2022-02-25T16:18:57-07:00</lastmod>
-  </url><url>
-    <loc>https://un01s.github.io/</loc>
     <lastmod>2022-02-25T16:18:57-07:00</lastmod>
   </url><url>
     <loc>https://un01s.github.io/tags/human-rights/</loc>

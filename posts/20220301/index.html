@@ -5,12 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | un01s notes</title>
-<meta name="keywords" content="" />
-<meta name="description" content="Posts - un01s notes">
+<title>Reading Code of Toit (002) | un01s notes</title>
+<meta name="keywords" content="code, toit, esp32, C&#43;&#43;, CMake, Python" />
+<meta name="description" content="After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  ">
 <meta name="author" content="">
-<link rel="canonical" href="https://un01s.github.io/posts/" />
+<link rel="canonical" href="https://un01s.github.io/posts/20220301/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://un01s.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://un01s.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://un01s.github.io/favicon-32x32.png">
@@ -19,7 +23,6 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.92.1" />
-<link rel="alternate" type="application/rss+xml" href="https://un01s.github.io/posts/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,14 +59,20 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://un01s.github.io/posts/" />
+</noscript><meta property="og:title" content="Reading Code of Toit (002)" />
+<meta property="og:description" content="After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://un01s.github.io/posts/20220301/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-01T20:03:36-07:00" />
+<meta property="article:modified_time" content="2022-03-01T20:03:36-07:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Reading Code of Toit (002)"/>
+<meta name="twitter:description" content="After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  "/>
 
 
 <script type="application/ld+json">
@@ -76,13 +85,48 @@
       "position":  1 ,
       "name": "Posts",
       "item": "https://un01s.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Reading Code of Toit (002)",
+      "item": "https://un01s.github.io/posts/20220301/"
     }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reading Code of Toit (002)",
+  "name": "Reading Code of Toit (002)",
+  "description": "After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).\nWhat we have here are as follows:\n RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-\u0026gt;next_group_id(); exit_state = vm.scheduler()-\u0026gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  ",
+  "keywords": [
+    "code", "toit", "esp32", "C++", "CMake", "Python"
+  ],
+  "articleBody": "After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).\nWhat we have here are as follows:\n RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-next_group_id(); exit_state = vm.scheduler()-run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  ",
+  "wordCount" : "70",
+  "inLanguage": "en",
+  "datePublished": "2022-03-01T20:03:36-07:00",
+  "dateModified": "2022-03-01T20:03:36-07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://un01s.github.io/posts/20220301/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "un01s notes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://un01s.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -125,60 +169,49 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>Posts</h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Wasm3 on ESP32
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Stumbled on this repo.
-Run the modified code on one snowflake with 25 RGB LEDs (ws2812b-2020).
-Check the video on my twitter.</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-01-16 15:40:28 -0700 MST'>January 16, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Wasm3 on ESP32" href="https://un01s.github.io/posts/20220116/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Reading Code of Toit (002)
+    </h1>
+    <div class="post-meta"><span title='2022-03-01 20:03:36 -0700 MST'>March 1, 2022</span>&nbsp;·&nbsp;1 min
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Toit on M5stack Core2
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Build some examples in toit and flash it to M5Core2.
-There is no problem to follow the steps in one toit discussion. While trying the step4 for ft63xx. Found a typo in package.yaml. mpu6886 should be ft63xx.
-Another issue is that the touch seems not working after unplugging the USB cable. Will investigate further. Will try jaguar tool later.</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-01-15 21:02:50 -0700 MST'>January 15, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Toit on M5stack Core2" href="https://un01s.github.io/posts/20220115/"></a>
-</article>
+</div>
+  </header> 
+  <div class="post-content"><p>After <code>toit_start()</code>, we have <code>toit_esp32.cc</code> to read. The first one is <code>toit::start()</code>. Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).</p>
+<p>What we have here are as follows:</p>
+<ul>
+<li>RtcMemory::set_up();</li>
+<li>FlashRegistry::set_up();</li>
+<li>OS::set_up();</li>
+<li>esp_partition_find_first();</li>
+<li>setup_program(support_ota);</li>
+<li>Scheduler::ExitState exit_state;</li>
+<li>VM vm;</li>
+<li>vm.load_platform_event_sources();</li>
+<li>int groud_id = vm.scheduler()-&gt;next_group_id();</li>
+<li>exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id);</li>
+<li>OS::tear_down();</li>
+<li>FlashRegistry::tear_down();</li>
+</ul>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Rust on ESP32
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
-Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
-Update 2022.01.14: Both espflash and espmonitor are working.
-References:
- Rust on ESP32 rust esp32 std demo  </p>
-  </section>
-  <footer class="entry-footer"><span title='2022-01-11 18:00:21 -0700 MST'>January 11, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Rust on ESP32" href="https://un01s.github.io/posts/20220111/"></a>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://un01s.github.io/tags/code/">code</a></li>
+      <li><a href="https://un01s.github.io/tags/toit/">toit</a></li>
+      <li><a href="https://un01s.github.io/tags/esp32/">esp32</a></li>
+      <li><a href="https://un01s.github.io/tags/c&#43;&#43;/">C&#43;&#43;</a></li>
+      <li><a href="https://un01s.github.io/tags/cmake/">CMake</a></li>
+      <li><a href="https://un01s.github.io/tags/python/">Python</a></li>
+    </ul>
+  </footer>
 </article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="https://un01s.github.io/posts/page/3/">« Prev Page</a>
-    <a class="next" href="https://un01s.github.io/posts/page/5/">Next Page »</a>
-  </nav>
-</footer>
     </main>
     
 <footer class="footer">

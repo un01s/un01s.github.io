@@ -157,6 +157,20 @@ Here I&rsquo;ll document my electronics and software projects I work on in a bit
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Reading Code of Toit (002)
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  </p>
+  </section>
+  <footer class="entry-footer"><span title='2022-03-01 20:03:36 -0700 MST'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Code of Toit (002)" href="https://un01s.github.io/posts/20220301/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Reading Code of Toit (001)
     </h2>
   </header>
@@ -180,18 +194,6 @@ Then I saw the news of Dr. Paul Farmer. “The idea that some lives matter less 
   </section>
   <footer class="entry-footer"><span title='2022-02-21 20:53:56 -0700 MST'>February 21, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Invasion!" href="https://un01s.github.io/posts/20220221/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>The Infinite Dead
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>I remember once offering to an editor an article which began with a reference to the experience of last century. “Oh,” he said, “leave out the history and come to the present.” I felt like going to him over a thousand miles and taking him by the lapels and saying, “Dear, dear jackass! Don’t you understand that the past is the present; that without what was, nothing is? That, of the infinite dead, the living are but unimportant bits?...</p>
-  </section>
-  <footer class="entry-footer"><span title='2022-02-04 19:27:46 -0700 MST'>February 4, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to The Infinite Dead" href="https://un01s.github.io/posts/20220205/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

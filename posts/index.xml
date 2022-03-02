@@ -6,7 +6,18 @@
     <description>Recent content in Posts on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Feb 2022 16:18:57 -0700</lastBuildDate><atom:link href="https://un01s.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 20:03:36 -0700</lastBuildDate><atom:link href="https://un01s.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Code of Toit (002)</title>
+      <link>https://un01s.github.io/posts/20220301/</link>
+      <pubDate>Tue, 01 Mar 2022 20:03:36 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/posts/20220301/</guid>
+      <description>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here are as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&amp;gt;next_group_id(); exit_state = vm.scheduler()-&amp;gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  </description>
+    </item>
+    
     <item>
       <title>Reading Code of Toit (001)</title>
       <link>https://un01s.github.io/posts/20220225/</link>

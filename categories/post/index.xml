@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>toit on un01s notes</title>
-    <link>https://un01s.github.io/tags/toit/</link>
-    <description>Recent content in toit on un01s notes</description>
+    <title>post on un01s notes</title>
+    <link>https://un01s.github.io/categories/post/</link>
+    <description>Recent content in post on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Mar 2022 20:03:36 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/toit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 20:03:36 -0700</lastBuildDate><atom:link href="https://un01s.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Code of Toit (002)</title>
       <link>https://un01s.github.io/posts/20220301/</link>
@@ -16,17 +16,6 @@
       <description>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
 What we have here are as follows:
  RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&amp;gt;next_group_id(); exit_state = vm.scheduler()-&amp;gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  </description>
-    </item>
-    
-    <item>
-      <title>Reading Code of Toit (001)</title>
-      <link>https://un01s.github.io/posts/20220225/</link>
-      <pubDate>Fri, 25 Feb 2022 16:18:57 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/posts/20220225/</guid>
-      <description>When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.
-Where does the code get started on esp32? Based on esp-idf, Toit (I like to pronounce it as tight) creates a new platform with a new programming language for developers.
-For the code to start on the esp32 device, check all the files inside toolchains/esp32/.</description>
     </item>
     
   </channel>
