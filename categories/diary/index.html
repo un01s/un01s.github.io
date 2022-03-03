@@ -117,6 +117,22 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Toit Imports
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Toitlang uses import to use code from other libraries.
+ local import starting with .  $ tree . └── my_lib ├── my_lib.toit ├── other.toit └── sub └── sub.toit Assume we are importing sub.toit into my_lib.toit.
+import .sub.sub Shorten version:
+import .sub  global import  import math Then for customizations,
+import math as m import math show sin cos </p>
+  </section>
+  <footer class="entry-footer"><span title='2022-03-03 11:05:37 -0700 MST'>March 3, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Toit Imports" href="https://un01s.github.io/posts/20220303/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Reading Code of Toit (001)
     </h2>
   </header>
