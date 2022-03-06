@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on un01s notes</title>
+    <title>Tags on un01s code</title>
     <link>https://un01s.github.io/tags/</link>
-    <description>Recent content in Tags on un01s notes</description>
+    <description>Recent content in Tags on un01s code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Mar 2022 11:05:37 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 08:50:03 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>life</title>
+      <link>https://un01s.github.io/tags/life/</link>
+      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mindfulness</title>
+      <link>https://un01s.github.io/tags/mindfulness/</link>
+      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/tags/mindfulness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://un01s.github.io/tags/philosophy/</link>
+      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      
+      <guid>https://un01s.github.io/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>code</title>
       <link>https://un01s.github.io/tags/code/</link>
