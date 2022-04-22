@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>esp32 | un01s code</title>
+<title>esp32 | un01s notes</title>
 <meta name="keywords" content="" />
 <meta name="description" content="">
 <meta name="author" content="">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://un01s.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.94.2" />
 <link rel="alternate" type="application/rss+xml" href="https://un01s.github.io/tags/esp32/index.xml">
 <noscript>
     <style>
@@ -82,7 +82,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://un01s.github.io/" accesskey="h" title="un01s code (Alt + H)">un01s code</a>
+            <a href="https://un01s.github.io/" accesskey="h" title="un01s notes (Alt + H)">un01s notes</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -117,54 +117,49 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Reading Code of Toit (002)
+    <h2>Use Jaguar to update
     </h2>
   </header>
   <section class="entry-content">
-    <p>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
-What we have here is as follows:
- RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  After these, esp32 may go to deep sleep....</p>
+    <p>Use an Airport to setup a WiFi network. Then download the binary of Jaguar. Run the following commands one after another. The second command requires the WiFi credentials. Use CTRL&#43;C to stop the third one. To run the forth and the fifth command, put your computer on the same WiFi network as the esp32 device.
+$./jag setup $./jag flash $./jag monitor $./jag scan $./jag run hello.toit </p>
   </section>
-  <footer class="entry-footer"><span title='2022-03-01 20:03:36 -0700 MST'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Reading Code of Toit (002)" href="https://un01s.github.io/posts/20220301/"></a>
+  <footer class="entry-footer"><span title='2022-01-17 15:05:41 -0600 -0600'>January 17, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Use Jaguar to update" href="https://un01s.github.io/posts/20220117/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Reading Code of Toit (001)
+    <h2>wasm3 on esp32
     </h2>
   </header>
   <section class="entry-content">
-    <p>When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.
-Where does the code get started on esp32? Based on esp-idf, Toit (I like to pronounce it as tight) creates a new platform with a new programming language for developers.
-For the code to start on the esp32 device, check all the files inside toolchains/esp32/....</p>
+    <p>Stumbled on this repo.
+Run the modified code on one snowflake with 25 RGB LEDs (ws2812b-2020).
+Check the video tweet.</p>
   </section>
-  <footer class="entry-footer"><span title='2022-02-25 16:18:57 -0700 MST'>February 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Reading Code of Toit (001)" href="https://un01s.github.io/posts/20220225/"></a>
+  <footer class="entry-footer"><span title='2022-01-16 15:11:45 -0600 -0600'>January 16, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to wasm3 on esp32" href="https://un01s.github.io/posts/20220116/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Use Jaguar to update toit code over WiFi
+    <h2>Rust on esp32
     </h2>
   </header>
   <section class="entry-content">
-    <p>The Jaguar tool is great.
-Use an Airport to setup a WiFi network. Then download the binary of Jaguar. Run the following commands one after another. The second command requires the WiFi credentials. Use CTRL&#43;C to stop the third one. To run the forth and the fifth command, put your computer on the same WiFi network as the esp32 device.
-$./jag setup $./jag flash $./jag monitor $./jag scan $./jag run hello....</p>
+    <p>Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
+Clearly the toolchain is working in its early stage. $ cargo build OK. Both espflash and espmonitor are working.
+Reference:
+ Rust on ESP32 rust esp32 std demo  </p>
   </section>
-  <footer class="entry-footer"><span title='2022-01-17 12:12:11 -0700 MST'>January 17, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Use Jaguar to update toit code over WiFi" href="https://un01s.github.io/posts/20220117/"></a>
+  <footer class="entry-footer"><span title='2022-01-11 15:18:20 -0600 -0600'>January 11, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Rust on esp32" href="https://un01s.github.io/posts/20220111/"></a>
 </article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="next" href="https://un01s.github.io/tags/esp32/page/2/">Next Page »</a>
-  </nav>
-</footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s code</a></span>
+    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s notes</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -1,304 +1,268 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on un01s code</title>
+    <title>Tags on un01s notes</title>
     <link>https://un01s.github.io/tags/</link>
-    <description>Recent content in Tags on un01s code</description>
+    <description>Recent content in Tags on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Mar 2022 08:50:03 -0700</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 12:05:52 -0600</lastBuildDate><atom:link href="https://un01s.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>life</title>
       <link>https://un01s.github.io/tags/life/</link>
-      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2022 12:05:52 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>mindfulness</title>
-      <link>https://un01s.github.io/tags/mindfulness/</link>
-      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      <title>story</title>
+      <link>https://un01s.github.io/tags/story/</link>
+      <pubDate>Wed, 20 Apr 2022 12:05:52 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/mindfulness/</guid>
+      <guid>https://un01s.github.io/tags/story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chomsky</title>
+      <link>https://un01s.github.io/tags/chomsky/</link>
+      <pubDate>Sun, 17 Apr 2022 13:16:03 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/chomsky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ukraine</title>
+      <link>https://un01s.github.io/tags/ukraine/</link>
+      <pubDate>Sun, 17 Apr 2022 13:16:03 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/ukraine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>instinct</title>
+      <link>https://un01s.github.io/tags/instinct/</link>
+      <pubDate>Sat, 16 Apr 2022 10:17:11 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/instinct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory</title>
+      <link>https://un01s.github.io/tags/memory/</link>
+      <pubDate>Sat, 16 Apr 2022 10:17:11 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/memory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>philosophy</title>
       <link>https://un01s.github.io/tags/philosophy/</link>
-      <pubDate>Sun, 06 Mar 2022 08:50:03 -0700</pubDate>
+      <pubDate>Sat, 16 Apr 2022 10:17:11 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/philosophy/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>diary</title>
+      <link>https://un01s.github.io/tags/diary/</link>
+      <pubDate>Sun, 10 Apr 2022 14:03:30 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brexit</title>
+      <link>https://un01s.github.io/tags/brexit/</link>
+      <pubDate>Wed, 06 Apr 2022 10:50:52 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/brexit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://un01s.github.io/tags/c/</link>
+      <pubDate>Sun, 27 Mar 2022 14:07:29 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decrement</title>
+      <link>https://un01s.github.io/tags/decrement/</link>
+      <pubDate>Sun, 27 Mar 2022 14:07:29 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/decrement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freud</title>
+      <link>https://un01s.github.io/tags/freud/</link>
+      <pubDate>Wed, 23 Mar 2022 20:04:41 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/freud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lacan</title>
+      <link>https://un01s.github.io/tags/lacan/</link>
+      <pubDate>Wed, 23 Mar 2022 20:04:41 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/lacan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://un01s.github.io/tags/hugo/</link>
+      <pubDate>Sun, 20 Mar 2022 15:16:56 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://un01s.github.io/tags/javascript/</link>
+      <pubDate>Fri, 18 Mar 2022 15:22:58 -0600</pubDate>
+      
+      <guid>https://un01s.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>code</title>
       <link>https://un01s.github.io/tags/code/</link>
-      <pubDate>Thu, 03 Mar 2022 11:05:37 -0700</pubDate>
+      <pubDate>Thu, 03 Mar 2022 14:44:04 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>library</title>
-      <link>https://un01s.github.io/tags/library/</link>
-      <pubDate>Thu, 03 Mar 2022 11:05:37 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>package</title>
-      <link>https://un01s.github.io/tags/package/</link>
-      <pubDate>Thu, 03 Mar 2022 11:05:37 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>toit</title>
       <link>https://un01s.github.io/tags/toit/</link>
-      <pubDate>Thu, 03 Mar 2022 11:05:37 -0700</pubDate>
+      <pubDate>Thu, 03 Mar 2022 14:44:04 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/toit/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>C&#43;&#43;</title>
-      <link>https://un01s.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 01 Mar 2022 20:03:36 -0700</pubDate>
+      <title>cron</title>
+      <link>https://un01s.github.io/tags/cron/</link>
+      <pubDate>Wed, 02 Mar 2022 14:21:56 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/c&#43;&#43;/</guid>
+      <guid>https://un01s.github.io/tags/cron/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CMake</title>
-      <link>https://un01s.github.io/tags/cmake/</link>
-      <pubDate>Tue, 01 Mar 2022 20:03:36 -0700</pubDate>
+      <title>news</title>
+      <link>https://un01s.github.io/tags/news/</link>
+      <pubDate>Mon, 21 Feb 2022 14:55:05 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/cmake/</guid>
+      <guid>https://un01s.github.io/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>esp32</title>
-      <link>https://un01s.github.io/tags/esp32/</link>
-      <pubDate>Tue, 01 Mar 2022 20:03:36 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/esp32/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://un01s.github.io/tags/python/</link>
-      <pubDate>Tue, 01 Mar 2022 20:03:36 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>esp32s3</title>
-      <link>https://un01s.github.io/tags/esp32s3/</link>
-      <pubDate>Fri, 25 Feb 2022 16:18:57 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/esp32s3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>human rights</title>
-      <link>https://un01s.github.io/tags/human-rights/</link>
-      <pubDate>Mon, 21 Feb 2022 20:53:56 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/human-rights/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>inequaiity</title>
-      <link>https://un01s.github.io/tags/inequaiity/</link>
-      <pubDate>Mon, 21 Feb 2022 20:53:56 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/inequaiity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paul-Farmer</title>
+      <title>Paul Farmer</title>
       <link>https://un01s.github.io/tags/paul-farmer/</link>
-      <pubDate>Mon, 21 Feb 2022 20:53:56 -0700</pubDate>
+      <pubDate>Mon, 21 Feb 2022 14:55:05 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/paul-farmer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>history</title>
-      <link>https://un01s.github.io/tags/history/</link>
-      <pubDate>Fri, 04 Feb 2022 19:27:46 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Du Bois</title>
+      <title>WEB Du Bois</title>
       <link>https://un01s.github.io/tags/web-du-bois/</link>
-      <pubDate>Fri, 04 Feb 2022 19:27:46 -0700</pubDate>
+      <pubDate>Fri, 04 Feb 2022 14:57:08 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/web-du-bois/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>poignant</title>
-      <link>https://un01s.github.io/tags/poignant/</link>
-      <pubDate>Fri, 04 Feb 2022 18:58:43 -0700</pubDate>
+      <title>Willaim Martin</title>
+      <link>https://un01s.github.io/tags/willaim-martin/</link>
+      <pubDate>Thu, 03 Feb 2022 14:59:21 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/poignant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>William Martin</title>
-      <link>https://un01s.github.io/tags/william-martin/</link>
-      <pubDate>Fri, 04 Feb 2022 18:58:43 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/william-martin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fiction</title>
-      <link>https://un01s.github.io/tags/fiction/</link>
-      <pubDate>Sat, 29 Jan 2022 13:45:02 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/fiction/</guid>
+      <guid>https://un01s.github.io/tags/willaim-martin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flannery O&#39;Connor</title>
       <link>https://un01s.github.io/tags/flannery-oconnor/</link>
-      <pubDate>Sat, 29 Jan 2022 13:45:02 -0700</pubDate>
+      <pubDate>Sat, 29 Jan 2022 15:01:00 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/flannery-oconnor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>internet</title>
-      <link>https://un01s.github.io/tags/internet/</link>
-      <pubDate>Wed, 26 Jan 2022 11:45:02 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/internet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NFT</title>
-      <link>https://un01s.github.io/tags/nft/</link>
-      <pubDate>Wed, 26 Jan 2022 11:45:02 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/nft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web3</title>
-      <link>https://un01s.github.io/tags/web3/</link>
-      <pubDate>Wed, 26 Jan 2022 11:45:02 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/web3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Thich Nhat Hanh</title>
       <link>https://un01s.github.io/tags/thich-nhat-hanh/</link>
-      <pubDate>Tue, 25 Jan 2022 21:16:46 -0700</pubDate>
+      <pubDate>Tue, 25 Jan 2022 15:03:32 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/thich-nhat-hanh/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jaguar</title>
-      <link>https://un01s.github.io/tags/jaguar/</link>
-      <pubDate>Mon, 17 Jan 2022 12:12:11 -0700</pubDate>
+      <title>esp32</title>
+      <link>https://un01s.github.io/tags/esp32/</link>
+      <pubDate>Mon, 17 Jan 2022 15:05:41 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/jaguar/</guid>
+      <guid>https://un01s.github.io/tags/esp32/</guid>
       <description></description>
     </item>
     
     <item>
       <title>m5core2</title>
       <link>https://un01s.github.io/tags/m5core2/</link>
-      <pubDate>Mon, 17 Jan 2022 12:12:11 -0700</pubDate>
+      <pubDate>Mon, 17 Jan 2022 15:05:41 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/m5core2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>toit-lang</title>
-      <link>https://un01s.github.io/tags/toit-lang/</link>
-      <pubDate>Mon, 17 Jan 2022 12:12:11 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/toit-lang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>wasm3</title>
       <link>https://un01s.github.io/tags/wasm3/</link>
-      <pubDate>Sun, 16 Jan 2022 15:40:28 -0700</pubDate>
+      <pubDate>Sun, 16 Jan 2022 15:11:45 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/wasm3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>WebAssembly</title>
-      <link>https://un01s.github.io/tags/webassembly/</link>
-      <pubDate>Sun, 16 Jan 2022 15:40:28 -0700</pubDate>
+      <title>rust</title>
+      <link>https://un01s.github.io/tags/rust/</link>
+      <pubDate>Tue, 11 Jan 2022 15:18:20 -0600</pubDate>
       
-      <guid>https://un01s.github.io/tags/webassembly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust-lang</title>
-      <link>https://un01s.github.io/tags/rust-lang/</link>
-      <pubDate>Tue, 11 Jan 2022 18:00:21 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/rust-lang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>essay</title>
-      <link>https://un01s.github.io/tags/essay/</link>
-      <pubDate>Sat, 08 Jan 2022 18:09:41 -0700</pubDate>
-      
-      <guid>https://un01s.github.io/tags/essay/</guid>
+      <guid>https://un01s.github.io/tags/rust/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sigmund Freud</title>
       <link>https://un01s.github.io/tags/sigmund-freud/</link>
-      <pubDate>Sat, 08 Jan 2022 18:09:41 -0700</pubDate>
+      <pubDate>Sat, 08 Jan 2022 15:23:09 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/sigmund-freud/</guid>
       <description></description>
@@ -307,7 +271,7 @@
     <item>
       <title>Joan Didion</title>
       <link>https://un01s.github.io/tags/joan-didion/</link>
-      <pubDate>Fri, 24 Dec 2021 11:01:38 -0700</pubDate>
+      <pubDate>Fri, 24 Dec 2021 15:24:34 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/joan-didion/</guid>
       <description></description>
@@ -316,7 +280,7 @@
     <item>
       <title>Emily Dickinson</title>
       <link>https://un01s.github.io/tags/emily-dickinson/</link>
-      <pubDate>Sun, 12 Dec 2021 13:04:23 -0700</pubDate>
+      <pubDate>Sun, 12 Dec 2021 14:34:21 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/emily-dickinson/</guid>
       <description></description>
@@ -325,7 +289,7 @@
     <item>
       <title>poem</title>
       <link>https://un01s.github.io/tags/poem/</link>
-      <pubDate>Sun, 12 Dec 2021 13:04:23 -0700</pubDate>
+      <pubDate>Sun, 12 Dec 2021 14:34:21 -0600</pubDate>
       
       <guid>https://un01s.github.io/tags/poem/</guid>
       <description></description>

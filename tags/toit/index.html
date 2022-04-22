@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>toit | un01s code</title>
+<title>toit | un01s notes</title>
 <meta name="keywords" content="" />
 <meta name="description" content="">
 <meta name="author" content="">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://un01s.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.94.2" />
 <link rel="alternate" type="application/rss+xml" href="https://un01s.github.io/tags/toit/index.xml">
 <noscript>
     <style>
@@ -82,7 +82,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://un01s.github.io/" accesskey="h" title="un01s code (Alt + H)">un01s code</a>
+            <a href="https://un01s.github.io/" accesskey="h" title="un01s notes (Alt + H)">un01s notes</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -122,18 +122,18 @@
   </header>
   <section class="entry-content">
     <p>Toitlang uses import to use code from other libraries.
- local import starting with .  $ tree . └── my_lib ├── my_lib.toit ├── other.toit └── sub └── sub.toit Assume we are importing sub.toit into my_lib.toit.
+ local import starting with .  $ tree . └── my_lib  ├── my_lib.toit  ├── other.toit  └── sub  └── sub.toit Assume we are importing sub.toit into my_lib.toit.
 import .sub.sub Shorten version:
 import .sub  global import  import math Then for customizations,
 import math as m import math show sin cos </p>
   </section>
-  <footer class="entry-footer"><span title='2022-03-03 11:05:37 -0700 MST'>March 3, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <footer class="entry-footer"><span title='2022-03-03 14:44:04 -0600 -0600'>March 3, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Toit Imports" href="https://un01s.github.io/posts/20220303/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Reading Code of Toit (002)
+    <h2>Reading Toit Code (002)
     </h2>
   </header>
   <section class="entry-content">
@@ -141,13 +141,13 @@ import math as m import math show sin cos </p>
 What we have here is as follows:
  RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  After these, esp32 may go to deep sleep....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-03-01 20:03:36 -0700 MST'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Reading Code of Toit (002)" href="https://un01s.github.io/posts/20220301/"></a>
+  <footer class="entry-footer"><span title='2022-03-01 14:47:53 -0600 -0600'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Toit Code (002)" href="https://un01s.github.io/posts/20220301/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Reading Code of Toit (001)
+    <h2>Reading Toit Code (001)
     </h2>
   </header>
   <section class="entry-content">
@@ -155,13 +155,18 @@ What we have here is as follows:
 Where does the code get started on esp32? Based on esp-idf, Toit (I like to pronounce it as tight) creates a new platform with a new programming language for developers.
 For the code to start on the esp32 device, check all the files inside toolchains/esp32/....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-02-25 16:18:57 -0700 MST'>February 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Reading Code of Toit (001)" href="https://un01s.github.io/posts/20220225/"></a>
+  <footer class="entry-footer"><span title='2022-02-25 14:51:27 -0600 -0600'>February 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Toit Code (001)" href="https://un01s.github.io/posts/20220225/"></a>
 </article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://un01s.github.io/tags/toit/page/2/">Next Page »</a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s code</a></span>
+    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s notes</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

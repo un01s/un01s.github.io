@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | un01s code</title>
+<title>Posts | un01s notes</title>
 <meta name="keywords" content="" />
-<meta name="description" content="Posts - un01s code">
+<meta name="description" content="Posts - un01s notes">
 <meta name="author" content="">
 <link rel="canonical" href="https://un01s.github.io/posts/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://un01s.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.1" />
+<meta name="generator" content="Hugo 0.94.2" />
 <link rel="alternate" type="application/rss+xml" href="https://un01s.github.io/posts/index.xml">
 <noscript>
     <style>
@@ -97,7 +97,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://un01s.github.io/" accesskey="h" title="un01s code (Alt + H)">un01s code</a>
+            <a href="https://un01s.github.io/" accesskey="h" title="un01s notes (Alt + H)">un01s notes</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -132,45 +132,42 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Toit on M5stack Core2
+    <h2>Cron is fun
     </h2>
   </header>
   <section class="entry-content">
-    <p>Build some examples in toit and flash it to M5Core2.
-There is no problem to follow the steps in one toit discussion. While trying the step4 for ft63xx. Found a typo in package.yaml. mpu6886 should be ft63xx.
-Another issue is that the touch seems not working after unplugging the USB cable. Will investigate further. Will try jaguar tool later.</p>
+    <p></p>
   </section>
-  <footer class="entry-footer"><span title='2022-01-15 21:02:50 -0700 MST'>January 15, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Toit on M5stack Core2" href="https://un01s.github.io/posts/20220115/"></a>
+  <footer class="entry-footer"><span title='2022-03-02 14:21:56 -0600 -0600'>March 2, 2022</span>&nbsp;·&nbsp;0 min</footer>
+  <a class="entry-link" aria-label="post link to Cron is fun" href="https://un01s.github.io/posts/20220302/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Rust on ESP32
+    <h2>Reading Toit Code (002)
     </h2>
   </header>
   <section class="entry-content">
-    <p>Start to look at the toolchain for Rust on ESP32 family modules. After some googling, here is the first result.
-Clearly the toolchain is working in its early stage. $ cargo build OK. But esptool does not work. This requires further investigation. Instead the flashing tool from esp-idf is used directly to flash one esp32 dev board.
-Update 2022.01.14: Both espflash and espmonitor are working.
-References:
- Rust on ESP32 rust esp32 std demo  </p>
+    <p>After toit_start(), we have toit_esp32.cc to read. The first one is toit::start(). Toit here is just a namespace. As we know that toit supports OTA (over-the-air update) through WiFi and esp32 device is set to be a station (STA instead of AP).
+What we have here is as follows:
+ RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  After these, esp32 may go to deep sleep....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-01-11 18:00:21 -0700 MST'>January 11, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Rust on ESP32" href="https://un01s.github.io/posts/20220111/"></a>
+  <footer class="entry-footer"><span title='2022-03-01 14:47:53 -0600 -0600'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Toit Code (002)" href="https://un01s.github.io/posts/20220301/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>SigmundFreud: mass delusion
+    <h2>Reading Toit Code (001)
     </h2>
   </header>
   <section class="entry-content">
-    <p>“Of special importance is the case in which substantial numbers of people, acting in concert, try to assure themselves of happiness and protection against suffering through a delusional reshaping of reality. The religions of mankind too must be described as example of mass delusion. Of course, no one who still shares a delusion will ever recognize it as such.”
-“We never have so little protection against suffering as when we are in love; we are never so desolate when we have lost the object of our love or its love for us....</p>
+    <p>When I started to port the code to ESP32S3 following the example of ESP32C3, I realized I had to read the code closely. Here are the notes along the way.
+Where does the code get started on esp32? Based on esp-idf, Toit (I like to pronounce it as tight) creates a new platform with a new programming language for developers.
+For the code to start on the esp32 device, check all the files inside toolchains/esp32/....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-01-08 18:09:41 -0700 MST'>January 8, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to SigmundFreud: mass delusion" href="https://un01s.github.io/posts/20220108/"></a>
+  <footer class="entry-footer"><span title='2022-02-25 14:51:27 -0600 -0600'>February 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Reading Toit Code (001)" href="https://un01s.github.io/posts/20220225/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -181,7 +178,7 @@ References:
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s code</a></span>
+    <span>&copy; 2022 <a href="https://un01s.github.io/">un01s notes</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
