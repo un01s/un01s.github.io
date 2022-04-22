@@ -5,7 +5,6 @@
     <link>https://un01s.github.io/tags/code/</link>
     <description>Recent content in code on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Thu, 03 Mar 2022 14:44:04 -0600</lastBuildDate><atom:link href="https://un01s.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Toit Imports</title>
@@ -14,7 +13,7 @@
       
       <guid>https://un01s.github.io/posts/20220303/</guid>
       <description>Toitlang uses import to use code from other libraries.
- local import starting with .  $ tree . └── my_lib  ├── my_lib.toit  ├── other.toit  └── sub  └── sub.toit Assume we are importing sub.toit into my_lib.toit.
+ local import starting with .  $ tree . └── my_lib ├── my_lib.toit ├── other.toit └── sub └── sub.toit Assume we are importing sub.toit into my_lib.toit.
 import .sub.sub Shorten version:
 import .sub  global import  import math Then for customizations,
 import math as m import math show sin cos </description>

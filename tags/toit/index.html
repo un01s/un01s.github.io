@@ -7,8 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>toit | un01s notes</title>
 <meta name="keywords" content="" />
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="un01s notes - https://github.com/un01s/">
+<meta name="author" content="un01s">
 <link rel="canonical" href="https://un01s.github.io/tags/toit/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://un01s.github.io/favicon.ico">
@@ -57,13 +57,13 @@
 
     </style>
 </noscript><meta property="og:title" content="toit" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="un01s notes - https://github.com/un01s/" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://un01s.github.io/tags/toit/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="toit"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="un01s notes - https://github.com/un01s/"/>
 
 </head>
 
@@ -107,11 +107,31 @@
             </span>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://un01s.github.io/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://un01s.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://un01s.github.io/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://un01s.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://un01s.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://un01s.github.io/tags/">Tags</a></div>
   <h1>toit</h1>
 </header>
 
@@ -122,12 +142,12 @@
   </header>
   <section class="entry-content">
     <p>Toitlang uses import to use code from other libraries.
- local import starting with .  $ tree . └── my_lib  ├── my_lib.toit  ├── other.toit  └── sub  └── sub.toit Assume we are importing sub.toit into my_lib.toit.
+ local import starting with .  $ tree . └── my_lib ├── my_lib.toit ├── other.toit └── sub └── sub.toit Assume we are importing sub.toit into my_lib.toit.
 import .sub.sub Shorten version:
 import .sub  global import  import math Then for customizations,
 import math as m import math show sin cos </p>
   </section>
-  <footer class="entry-footer"><span title='2022-03-03 14:44:04 -0600 -0600'>March 3, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <footer class="entry-footer"><span title='2022-03-03 14:44:04 -0600 -0600'>March 3, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;un01s</footer>
   <a class="entry-link" aria-label="post link to Toit Imports" href="https://un01s.github.io/posts/20220303/"></a>
 </article>
 
@@ -141,7 +161,7 @@ import math as m import math show sin cos </p>
 What we have here is as follows:
  RtcMemory::set_up(); FlashRegistry::set_up(); OS::set_up(); esp_partition_find_first(); setup_program(support_ota); Scheduler::ExitState exit_state; VM vm; vm.load_platform_event_sources(); int groud_id = vm.scheduler()-&gt;next_group_id(); exit_state = vm.scheduler()-&gt;run_boot_program(program, null, group_id); OS::tear_down(); FlashRegistry::tear_down();  After these, esp32 may go to deep sleep....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-03-01 14:47:53 -0600 -0600'>March 1, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <footer class="entry-footer"><span title='2022-03-01 14:47:53 -0600 -0600'>March 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;un01s</footer>
   <a class="entry-link" aria-label="post link to Reading Toit Code (002)" href="https://un01s.github.io/posts/20220301/"></a>
 </article>
 
@@ -155,14 +175,36 @@ What we have here is as follows:
 Where does the code get started on esp32? Based on esp-idf, Toit (I like to pronounce it as tight) creates a new platform with a new programming language for developers.
 For the code to start on the esp32 device, check all the files inside toolchains/esp32/....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-02-25 14:51:27 -0600 -0600'>February 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <footer class="entry-footer"><span title='2022-02-25 14:51:27 -0600 -0600'>February 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;un01s</footer>
   <a class="entry-link" aria-label="post link to Reading Toit Code (001)" href="https://un01s.github.io/posts/20220225/"></a>
 </article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="next" href="https://un01s.github.io/tags/toit/page/2/">Next Page »</a>
-  </nav>
-</footer>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Use Jaguar to update
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Use an Airport to setup a WiFi network. Then download the binary of Jaguar. Run the following commands one after another. The second command requires the WiFi credentials. Use CTRL&#43;C to stop the third one. To run the forth and the fifth command, put your computer on the same WiFi network as the esp32 device.
+$./jag setup $./jag flash $./jag monitor $./jag scan $./jag run hello.toit </p>
+  </section>
+  <footer class="entry-footer"><span title='2022-01-17 15:05:41 -0600 -0600'>January 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;un01s</footer>
+  <a class="entry-link" aria-label="post link to Use Jaguar to update" href="https://un01s.github.io/posts/20220117/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Toit on m5core2
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Build some examples in toit and flash it to M5Core2.
+There is no problem to follow the steps in one toit discussion. While trying the step4 for ft63xx. Found a typo in package.yaml. mpu6886 should be ft63xx.
+Another issue is that the touch seems not working after unplugging the USB cable. Will investigate further. Will try jaguar tool later.</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-01-15 15:13:45 -0600 -0600'>January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;un01s</footer>
+  <a class="entry-link" aria-label="post link to Toit on m5core2" href="https://un01s.github.io/posts/20220115/"></a>
+</article>
     </main>
     
 <footer class="footer">

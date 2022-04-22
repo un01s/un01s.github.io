@@ -5,15 +5,14 @@
     <link>https://un01s.github.io/</link>
     <description>Recent content on un01s notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Wed, 20 Apr 2022 12:05:52 -0600</lastBuildDate><atom:link href="https://un01s.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Half Story</title>
+      <title>Half a story</title>
       <link>https://un01s.github.io/posts/20220420/</link>
       <pubDate>Wed, 20 Apr 2022 12:05:52 -0600</pubDate>
       
       <guid>https://un01s.github.io/posts/20220420/</guid>
-      <description>I have beenn to several cities in my travel.
+      <description>I have been to several cities in my travel.
 I lived in a city when I was young. In the north, there&amp;rsquo;s my childhood in a rural village and a high school. In the east, that&amp;rsquo;s my home for a while. In the west, I had my best college time. In the south, that&amp;rsquo;s where my girlfriend lived. At that time, the city was still small. I could walk to my grandma&amp;rsquo;s house on my little feet from my school.</description>
     </item>
     
@@ -73,7 +72,7 @@ President Zelensky is leading a fight not only for defending Ukraine but the fre
       <pubDate>Sun, 27 Mar 2022 14:07:29 -0600</pubDate>
       
       <guid>https://un01s.github.io/posts/20220327/</guid>
-      <description>$ pcat goes-to.c #include &amp;lt;stdio.h&amp;gt; int main() {  int x = 5;  // while x goes to 0:  while (x --&amp;gt; 0) {  printf(&amp;#34;%d &amp;#34;, x);  }  printf(&amp;#34;\n&amp;#34;);  return 0; } $ gcc goes-to.c &amp;amp;&amp;amp; ./a.out 4 3 2 1 0 </description>
+      <description>$ pcat goes-to.c #include &amp;lt;stdio.h&amp;gt; int main() { int x = 5; // while x goes to 0:  while (x --&amp;gt; 0) { printf(&amp;#34;%d &amp;#34;, x); } printf(&amp;#34;\n&amp;#34;); return 0; } $ gcc goes-to.c &amp;amp;&amp;amp; ./a.out 4 3 2 1 0 </description>
     </item>
     
     <item>
@@ -102,9 +101,9 @@ Lacan&amp;rsquo;s answer is perhaps even better: &amp;ldquo;That is why the unco
       
       <guid>https://un01s.github.io/posts/20220318/</guid>
       <description>Here are some C code with the JavaScript quirks. Credits to luna.
-#include &amp;lt;stdio.h&amp;gt; int main() {  puts(&amp;#34;-0.5&amp;#34; + 1);  printf(&amp;#34;%d\n&amp;#34;, 50 ** &amp;#34;2&amp;#34;);  return 0; } To build and run the above code, just do the following and ignore the warnings.
+#include &amp;lt;stdio.h&amp;gt; int main() { puts(&amp;#34;-0.5&amp;#34; + 1); printf(&amp;#34;%d\n&amp;#34;, 50 ** &amp;#34;2&amp;#34;); return 0; } To build and run the above code, just do the following and ignore the warnings.
 $ gcc c-js.c &amp;amp;&amp;amp; ./a.out 0.5 2500 Let&amp;rsquo;s look at the warnings first.
-c-js.c:4:15: warning: adding &amp;#39;int&amp;#39; to a string does not append to the string [-Wstring-plus-int] puts(&amp;#34;-0.</description>
+c-js.c:4:15: warning: adding &amp;#39;int&amp;#39; to a string does not append to the string [-Wstring-plus-int] puts(&amp;#34;-0.5&amp;#34; + 1); ~~~~~~~^~~ c-js.</description>
     </item>
     
     <item>
@@ -124,7 +123,7 @@ Life is nothing but time given to us, short or long. For all of us, a day is lon
       
       <guid>https://un01s.github.io/posts/20220303/</guid>
       <description>Toitlang uses import to use code from other libraries.
- local import starting with .  $ tree . └── my_lib  ├── my_lib.toit  ├── other.toit  └── sub  └── sub.toit Assume we are importing sub.toit into my_lib.toit.
+ local import starting with .  $ tree . └── my_lib ├── my_lib.toit ├── other.toit └── sub └── sub.toit Assume we are importing sub.toit into my_lib.toit.
 import .sub.sub Shorten version:
 import .sub  global import  import math Then for customizations,
 import math as m import math show sin cos </description>
